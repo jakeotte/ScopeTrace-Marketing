@@ -69,13 +69,18 @@ body {
     display: flex;
     align-items: center;
     gap: 12px;
-    font-weight: 700;
-    font-size: 20px;
-    color: var(--gray-900);
     text-decoration: none;
 }
 
+.logo-img {
+    height: 36px;
+    width: auto;
+    display: block;
+}
+
 .logo-text {
+    font-weight: 700;
+    font-size: 20px;
     background: linear-gradient(135deg, var(--primary), var(--primary-light));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
